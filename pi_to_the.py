@@ -16,7 +16,7 @@ for decimal_places in range(2, 50):
         pi_power = pi ** power
         pi_power_trunc = pi_trunc ** power
 
-        # First check if integers are of
+        # First check if integers are equal
         if int(pi_power) != int(pi_power_trunc):
             break
 
