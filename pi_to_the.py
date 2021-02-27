@@ -24,7 +24,6 @@ for decimal_places in range(2, 50):
         pi_power_digits = str(pi_power).split('.')[1]
         pi_power_trunc_digits = str(pi_power_trunc).split('.')[1]
         
-
         # Find first figit where they differ
         for i in count():
             if pi_power_digits[i] != pi_power_trunc_digits[i]:
