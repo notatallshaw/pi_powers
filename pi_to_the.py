@@ -32,7 +32,7 @@ for decimal_places in range(2, 50):
         if i == 0:
             break
 
-        # Uncomment below to see it matches graph at 11:00 for digits 2 to 9
+        # Uncomment below to see it matches graph at 10:15 for digits 2 to 9
         # print(f'{decimal_places} digits ({pi_trunc}) @ power {power} results in {i} digit(s) of precision')
         power += 1
     final_powers.append(power)
